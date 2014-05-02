@@ -1,0 +1,73 @@
+/*
+ * This is a copy-pasted bootstrap.less, with some lines commented, plus
+ * custom imports specific to engineui.  Each bootstrap import is a local
+ * file which references the bootstrap original, designed for overriding.
+ */
+
+// bootstrap.less
+// -------------------
+
+// Core variables and mixins
+@import "variables.less";
+@import "mixins.less";
+
+// Reset
+@import "bootstrap/less/normalize.less";
+@import "bootstrap/less/print.less";
+
+// Core CSS
+@import "scaffolding.less";
+@import "bootstrap/less/type.less";
+@import "bootstrap/less/code.less";
+// precompiled--see below
+@import "bootstrap/less/grid.less";
+@import "tables.less";
+@import "bootstrap/less/forms.less";
+@import "buttons.less";
+
+// Components
+@import "bootstrap/less/component-animations.less";
+// font-awesome used instead--see below
+// @import "bootstrap/less/glyphicons.less";
+@import "bootstrap/less/dropdowns.less";
+@import "bootstrap/less/button-groups.less";
+@import "input-groups.less";
+@import "bootstrap/less/navs.less";
+@import "bootstrap/less/navbar.less";
+@import "bootstrap/less/breadcrumbs.less";
+@import "bootstrap/less/pagination.less";
+@import "bootstrap/less/pager.less";
+@import "bootstrap/less/labels.less";
+@import "bootstrap/less/badges.less";
+@import "bootstrap/less/jumbotron.less";
+@import "bootstrap/less/thumbnails.less";
+@import "alerts.less";
+@import "progress-bars.less";
+@import "bootstrap/less/media.less";
+@import "bootstrap/less/list-group.less";
+@import "bootstrap/less/panels.less";
+@import "bootstrap/less/wells.less";
+@import "bootstrap/less/close.less";
+// Custom Component: Bars
+@import "bars.less";
+
+// Components w/ JavaScript
+@import "bootstrap/less/modals.less";
+@import "bootstrap/less/tooltip.less";
+@import "bootstrap/less/popovers.less";
+@import "bootstrap/less/carousel.less";
+
+// Utility classes
+@import "bootstrap/less/utilities.less";
+@import "bootstrap/less/responsive-utilities.less";
+
+
+// engineui
+// -------------------
+
+// Fonts
+@import "font-awesome/less/font-awesome.less";
+@import "engine-ui-font.less";
+
+// paths must be last to override font-awesome path
+@import "engine-ui-paths.less";
