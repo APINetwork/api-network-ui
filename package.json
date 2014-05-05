@@ -1,0 +1,30 @@
+{
+  "name": "engine-ui",
+  "version": "0.0.1",
+  "description": "Engine Bootstrap override",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LDEngine/engine-ui.git"
+  },
+  "keywords": [
+    "engine",
+    "bootstrap",
+    "ui",
+    "toolkit"
+  ],
+  "author": "Engine, Inc.",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "grunt": "~0.4.4",
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-shell": "~0.6.4",
+    "grunt-copy": "~0.1.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-bower-task": "~0.3.4",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-concat": "~0.4.0"
+  }
+}

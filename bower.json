@@ -1,0 +1,27 @@
+{
+  "name": "engine-ui",
+  "version": "0.0.1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.0.3",
+    "bootstrap": "~3.1.1"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      ".": "dist/js/bootstrap.js",
+      "js": "js",
+      "less": "less"
+    },
+    "font-awesome": {
+      "less": "less",
+      "font": "fonts"
+    }
+  }
+}
