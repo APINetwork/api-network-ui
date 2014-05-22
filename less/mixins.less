@@ -34,3 +34,40 @@
 
 // Buttons
 // --------------------------------------------------
+
+.btn-gray,
+.btn-gray-block,
+.btn-green,
+.btn-green-block,
+.btn-red,
+.btn-red-block,
+.btn-yellow,
+.btn-yellow-block {
+  &:extend(.btn, .btn-md);
+}
+
+.btn-gray-block,
+.btn-green-block,
+.btn-red-block,
+.btn-yellow-block {
+  &:extend(.btn-block);
+}
+
+.btn-gray,
+.btn-gray-block {
+  &:extend(.btn-default);
+}
+.btn-green,
+.btn-green-block {
+  &:extend(.btn-primary);
+}
+
+.btn-red,
+.btn-red-block {
+  &:extend(.btn-danger);
+}
+
+.btn-yellow,
+.btn-yellow-block {
+  &:extend(.btn-warning);
+}
