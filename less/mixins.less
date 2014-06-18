@@ -37,37 +37,46 @@
 
 .btn-gray,
 .btn-gray-block,
+.btn-action,
+.btn-action-block,
 .btn-green,
 .btn-green-block,
 .btn-red,
 .btn-red-block,
 .btn-yellow,
 .btn-yellow-block {
-  &:extend(.btn, .btn-md);
+  &:extend(.btn all, .btn-md all);
 }
 
 .btn-gray-block,
 .btn-green-block,
+.btn-action-block,
 .btn-red-block,
 .btn-yellow-block {
-  &:extend(.btn-block);
+  &:extend(.btn-block all);
 }
 
 .btn-gray,
 .btn-gray-block {
-  &:extend(.btn-default);
+  &:extend(.btn-default all);
 }
+
+.btn-action,
+.btn-action-block {
+  &:extend(.btn-primary all);
+}
+
 .btn-green,
 .btn-green-block {
-  &:extend(.btn-primary);
+  &:extend(.btn-success all);
 }
 
 .btn-red,
 .btn-red-block {
-  &:extend(.btn-danger);
+  &:extend(.btn-danger all);
 }
 
 .btn-yellow,
 .btn-yellow-block {
-  &:extend(.btn-warning);
+  &:extend(.btn-warning all);
 }
