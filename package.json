@@ -1,11 +1,11 @@
 {
-  "name": "engine-ui",
+  "name": "api-network-ui",
   "version": "0.0.1",
   "description": "Engine Bootstrap override",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/LDEngine/engine-ui.git"
+    "url": "git://github.com/LDEngine/api-network-ui.git"
   },
   "keywords": [
     "engine",
