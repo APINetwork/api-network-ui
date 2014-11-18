@@ -24,13 +24,13 @@ module.exports = function(grunt) {
           '<%- path.dist_vendor %>'
         ],
         sourceMap: true,
-        sourceMapFilename: '<%- path.dist_css %>/engine-ui.css.map',
+        sourceMapFilename: '<%- path.dist_css %>/api-network-ui.css.map',
         sourceMapBasepath: '<%- path.dist_css %>'
       },
 
       dist: {
         files: {
-          '<%- path.dist_css %>/engine-ui.css': '<%- path.less %>/engine-ui.less'
+          '<%- path.dist_css %>/api-network-ui.css': '<%- path.less %>/api-network-ui.less'
         }
       }
     },
@@ -52,9 +52,9 @@ module.exports = function(grunt) {
       dist: {
         src: [
           '<%- path.dist_vendor %>/bootstrap/bootstrap.js',
-          '<%- path.js %>/engine-ui.js'
+          '<%- path.js %>/api-network-ui.js'
         ],
-        dest: '<%- path.dist_js %>/engine-ui.js',
+        dest: '<%- path.dist_js %>/api-network-ui.js',
       },
     },
 
