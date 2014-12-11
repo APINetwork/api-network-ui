@@ -17,17 +17,19 @@
 @gray-even-lighter:      lighten(#000, 95.5%);   // #f4f4f4
 @gray-lightest:          lighten(#000, 98%); // #fafafa
 
-@brand-primary:          #70b243;
-@brand-primary-lighter:  #98CC66;
-@brand-primary-lightest: #ABD37D;
+// apiblue: For APINetwork Branding
+@brand-apiblue:          #007bb6;
+@brand-apibluelight:     desaturate(lighten(@brand-apiblue, 20%), 45%);
+@brand-apibluelightest:  desaturate(lighten(@brand-apiblue, 30%), 45%);
+
+@brand-primary:          @brand-apiblue;
+@brand-primary-lighter:  @brand-apibluelight;
+@brand-primary-lightest: @brand-apibluelightest;
 
 @brand-success:          #98cc66;
 @brand-info:             #5bc0de;
 @brand-warning:          #edca28;
 @brand-danger:           #e45553;
-
-// apiblue: For APINetwork Branding
-@brand-apiblue:          #0c66a7;
 
 @brand-facebook:         #3b5999;
 @brand-twitter:          #5fa9dd;
@@ -113,7 +115,7 @@
 //##
 
 //** Border color for inputs on focus
-@input-border-focus:             #70b243; // Previously #66afe9
+@input-border-focus:             @brand-apiblue; // Previously #66afe9
 //** Background color for textual input addons
 @input-group-addon-bg:           #fff;// Previously @gray-lighter
 
